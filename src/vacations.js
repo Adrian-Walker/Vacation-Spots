@@ -1,6 +1,6 @@
 
 
-let vacationSpots = [
+const vacationSpots = [
     {
         id: 1,
         place: "Meridian, Idaho",
