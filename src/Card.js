@@ -4,10 +4,10 @@ import vacationSpots from "./vacations"
 function Card(props) {
     return (
         <div>
-            <h2>Vacation City: {vacationSpots.place}</h2>
-            <h2>Price: {vacationSpots.price}</h2>
-            <h2>Best Time To Go: {vacationSpots.timeToGo}</h2>
-            <hr/>
+            <h2>Vacation City: {props.place}</h2>
+            <h2>Price: {props.price}</h2>
+            <h2>Best Time To Go: {props.timeToGo}</h2>
+            <hr />
         </div>
     )
 }
