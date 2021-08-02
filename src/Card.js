@@ -3,10 +3,10 @@ import vacationSpots from "./vacations"
 
 function Card(props) {
     return (
-        <div>
-            <h2>Vacation City: {props.place}</h2>
-            <h2>Price: {props.price}</h2>
-            <h2>Best Time To Go: {props.timeToGo}</h2>
+        <div className="vacations">
+            <h2 className="city">Vacation City: {props.place}</h2>
+            <h2 className="price">Price: {props.price}</h2>
+            <h2 className="time">Best Time To Go: {props.timeToGo}</h2>
             <hr />
         </div>
     )
