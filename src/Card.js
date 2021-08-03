@@ -1,5 +1,6 @@
 import React from "react"
 import vacationSpots from "./vacations"
+import './style.css'
 
 function Card(props) {
     return (
